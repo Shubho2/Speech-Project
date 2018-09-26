@@ -1,0 +1,50 @@
+﻿Build started 9/25/2018 8:06:13 PM.
+     1>Project "C:\Users\SUBHA\Documents\Visual Studio 2010\174101001,174101025,174101028_ Project-CSE FACULTY INFO\PROJECT SPEECH\New_Application\teachers\teachers.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\teachers.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\teachers.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\teachers.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt addFaculty.cpp AssemblyInfo.cpp cepstral.cpp codebook.cpp hmm.cpp profile.cpp teacher.cpp teachers.cpp /clr:nostdlib 
+         addFaculty.cpp
+         AssemblyInfo.cpp
+         cepstral.cpp
+     1>cepstral.cpp(74): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         codebook.cpp
+     1>codebook.cpp(1): warning C4627: '#include "cepstral.h"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+         hmm.cpp
+     1>hmm.cpp(68): warning C4101: 'p' : unreferenced local variable
+         profile.cpp
+         teacher.cpp
+         teachers.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\SUBHA\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       CoreResGen:
+         No resources are out of date with respect to their source files. Skipping resource generation.
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\SUBHA\Documents\Visual Studio 2010\174101001,174101025,174101028_ Project-CSE FACULTY INFO\PROJECT SPEECH\New_Application\Debug\teachers.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\teachers.addFaculty.resources /ASSEMBLYRESOURCE:Debug\teachers.Form1.resources /ASSEMBLYRESOURCE:Debug\teachers.profile.resources /ASSEMBLYRESOURCE:Debug\teachers.teacher.resources /MANIFEST /ManifestFile:"Debug\teachers.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\SUBHA\Documents\Visual Studio 2010\174101001,174101025,174101028_ Project-CSE FACULTY INFO\PROJECT SPEECH\New_Application\Debug\teachers.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\addFaculty.obj
+         Debug\AssemblyInfo.obj
+         Debug\cepstral.obj
+         Debug\codebook.obj
+         Debug\hmm.obj
+         Debug\profile.obj
+         Debug\stdafx.obj
+         Debug\teacher.obj
+         Debug\teachers.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         teachers.vcxproj -> C:\Users\SUBHA\Documents\Visual Studio 2010\174101001,174101025,174101028_ Project-CSE FACULTY INFO\PROJECT SPEECH\New_Application\Debug\teachers.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\SUBHA\Documents\Visual Studio 2010\174101001,174101025,174101028_ Project-CSE FACULTY INFO\PROJECT SPEECH\New_Application\Debug\teachers.exe;#1" /manifest Debug\teachers.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\teachers.unsuccessfulbuild".
+         Touching "Debug\teachers.lastbuildstate".
+     1>Done Building Project "C:\Users\SUBHA\Documents\Visual Studio 2010\174101001,174101025,174101028_ Project-CSE FACULTY INFO\PROJECT SPEECH\New_Application\teachers\teachers.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:05.89

@@ -1,0 +1,14 @@
+Prasanta Roy 174101001
+Tanmoy Mondal 174101028
+Subha Banerjee 174101025
+
+Project Name : CSE DEPARTMENT FACULTY INFO
+
+Demonstration Video in : "Speech-Project CSE FACULTY INFO-MTECH CS 1st YR-174101001,1741010025,174101028.rar"
+Just unzip the  rar , Video is in ".mp4" format,
+
+How to use :
+Documentation is given in the pdf: "CSE FACULTY INFO.pdf"
+or else
+execute PROJECT SPEECH -->> New_Application-->>teachers.sln (Microsoft visual studio solution)
+
